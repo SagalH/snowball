@@ -83,17 +83,17 @@ section p {
 /* Section Images*/
 
 section#page1 {
-    background: url(../SnowballChalleng2/amazonass.jpg) no-repeat center center/cover;
+    background: url('amazonass.jpg') no-repeat center center/cover;
 }
 
 section#page2 {
-    background:url(../SnowballChalleng2/boat.jpg);
+    background:url('boat.jpg');
     background-size: 100%;
 
 }
 
 section#page3 {
-    background: url(../SnowballChalleng2/badair.jpg);
+    background: url('badair.jpg');
     background-size: 100%;
     color: black;
 
