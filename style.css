@@ -54,7 +54,7 @@ body {
 }
 
 .navbar ul li a:hover {
-    color: rgb(129, 187, 75);
+    color: rgba(255, 255, 255, 0.466);
 
 }
 
@@ -77,24 +77,44 @@ section h1 {
 }
 
 section p {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    font-display: block;
+    font-weight: 800;
+    display: inline;
+    place-content: start space-evenly;
 }
 
 /* Section Images*/
 
+
 section#page1 {
-    background: url('amazonass.jpg') no-repeat center center/cover;
+    background: url('brasil.jpg');
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+    background-size: cover;
+    color:white;
+  
+    
 }
 
 section#page2 {
-    background:url('boat.jpg');
-    background-size: 100%;
+    background:url('fire.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    place-content: left;
+    line-height: unset;
+    text-overflow: ellipsis;
+    color: rgb(250, 250, 250);
 
 }
 
 section#page3 {
-    background: url('badair.jpg');
-    background-size: 100%;
+    background: url('luft.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     color: black;
+    font-size: larger;
+    text-align: center ;
+
 
 }
